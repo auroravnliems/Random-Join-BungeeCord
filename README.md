@@ -46,6 +46,6 @@ check-online: false            # true = only connect to server have players
 
 ## 📝 Note
 
-- Tên server trong `config.yml` phải **khớp chính xác** với tên trong `BungeeCord/config.yml`
-- Nếu server không tồn tại trong BungeeCord, nó sẽ tự động bị bỏ qua
-- Hỗ trợ mã màu `&` trong tất cả thông báo
+- The server name in `config.yml` must **exactly match** the name in `BungeeCord/config.yml`.
+- If the server does not exist in BungeeCord, it will be automatically ignored.
+- Supports `&` color coding in all messages.
