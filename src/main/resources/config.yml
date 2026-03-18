@@ -1,0 +1,35 @@
+# ===========================================
+# RandomJoin Plugin - Config
+# Plugin for randomly connecting to the server
+# ===========================================
+
+# List of servers that can be randomly connected to
+# Name must match the server name in BungeeCord config.yml
+servers:
+  - survival
+  - smp
+
+# Commands
+command:
+  name: rjoin          # main commands
+  permission: randomjoin.use #permission use plugin
+  aliases:
+    - randomjoin
+    - rj
+
+# Do not allow connections to the current server.
+exclude-current-server: true
+
+# Only allow connections to servers with at least 1 person online.
+# Set to false if you want to connect regardless of whether the server is online or not.
+check-online: false
+
+# Notification (color code support &)
+messages:
+  no-permission: "&cBạn không có quyền sử dụng lệnh này!"
+  no-servers: "&cChưa có server nào được cấu hình trong config!"
+  no-available-servers: "&cKhông có server nào khả dụng lúc này, thử lại sau!"
+  connecting: "&eĐang kết nối ngẫu nhiên đến &b{server}&e..."
+  connected: "&a✔ Đã kết nối thành công đến server &b{server}&a!"
+  failed: "&c✘ Kết nối đến server &b{server} &cthất bại! Thử lại sau."
+  reloaded: "&a✔ Đã reload config RandomJoin thành công!"
