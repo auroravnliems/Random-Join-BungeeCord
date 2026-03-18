@@ -28,7 +28,7 @@ check-online: false            # true = only connect to server have players
 
 ## 🕹️ Commands & Permissions
 
-| Lệnh              | Mô tả                             | Quyền             |
+| Commadns          | Describe                          | Permissions        |
 |-------------------|-----------------------------------|--------------------|
 | `/rjoin`          | random connect to some server     | `randomjoin.use`   |
 | `/rjoin reload`   | Reload config plugin              | `randomjoin.admin` |
