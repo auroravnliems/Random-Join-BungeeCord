@@ -1,0 +1,7 @@
+name: RandomJoin
+version: 1.0.0
+main: com.randomjoin.RandomJoinPlugin
+author: YourName
+description: Plugin kết nối ngẫu nhiên đến server trong hub BungeeCord
+
+depends: []
